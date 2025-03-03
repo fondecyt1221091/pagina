@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROYECTO FONDECYT 1221091</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #f4f4f4;
+      }
+      .header-image {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        border-bottom: 5px solid #333;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        font-size: 16px; 
+      }
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+      }
+      .description {
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 20px;
+        text-align: justify; 
+        
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 10px;
+      }
+      .grid-item {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+      .grid-item:hover {
+        transform: scale(1.05);
+      }
+      .grid-item img {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+        width: 100%;
+        aspect-ratio: 1 / 0; /* Hace que el cuadro sea cuadrado */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .grid-item a {
+        display: block;
+        text-decoration: none;
+        font-size: 18px;
+        color: #333;
+        padding: 10px;
+      }
+      .grid-item a:hover {
+        color: #ff5733;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="assets/images/lag_villarrica_panoramica.jpg" alt="Imagen de encabezado" class="header-image" />
+    <div class="container">
+      <div class="title">Proyecto FONDECYT 1221091</div>
+      <h3>“Seasonal and interannual variability of inherent and apparent optical properties in lakes
+        and reservoirs in south-central Chile: Implications for bio-optical modeling and water quality”,</h1>
+      <div class="description">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique error, sint fugiat officia voluptates neque. Nam odit ipsum sed vero consectetur blanditiis temporibus officia, hic, nulla unde assumenda nisi nostrum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, eius. Libero consequatur a excepturi aspernatur eligendi molestiae minus sapiente id in, laudantium sequi asperiores assumenda natus at beatae. Architecto, obcaecati.</p>
+      </div>
+      <div class="grid">
+        <div class="grid-item">
+          <img src="assets/images/lago_villarrica.png" alt="Lago Villarrica" />
+          <a href="https://drive.google.com/drive/folders/1qi5ISV_bcMCvwdza_D0ujdSugm6Q-onl?usp=sharing" target="_blanks">Fotos Lago Villarrica</a>
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/lago_lanalhue.png" alt="Lago Lananlhue" />
+          <a href="https://drive.google.com/drive/folders/1S4T82XEEnn6YnE2vIjaoD6NP311HIjjh?usp=sharing">Fotos Lago Lanalhue</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
